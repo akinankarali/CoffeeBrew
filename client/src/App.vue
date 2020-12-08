@@ -8,24 +8,70 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Regular-slnt=0.ttf"); /* IE9 Compat Modes */
+  src: url("./assets/fonts/Inter-Regular-slnt=0.ttf")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/Inter-Regular-slnt=0.ttf") format("woff2"),
+    /* Super Modern Browsers */ url("./assets/fonts/Inter-Regular-slnt=0.ttf")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("./assets/fonts/Inter-Regular-slnt=0.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/fonts/Inter-Regular-slnt=0.ttf")
+      format("svg"); /* Legacy iOS */
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+
+  *,
+  *:before,
+  *:after,
+  *:focus {
+    box-sizing: inherit;
+    outline: none;
+  }
 }
 
-#nav {
-  padding: 30px;
+html {
+  font-size: 14px;
+  box-sizing: border-box;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+body {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Inter, sans-serif;
+  color: white;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+label {
+  font-weight: 600;
 }
 </style>
