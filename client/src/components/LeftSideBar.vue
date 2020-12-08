@@ -32,28 +32,6 @@
             <button class="">Syphon</button>
           </div>
         </div>
-        <div class="your-recipe">
-          <div class="your-recipe-title">
-            <img
-              src="../assets/icons/coffee-beans.png"
-              alt="brewing-tools"
-              title="brewing-tools"
-              class="icon"
-            />
-            <h3>Your Recipes</h3>
-          </div>
-          <div class="your-recipe-subtitle">
-            <p>coffee(gr) - water(ml) - minute</p>
-          </div>
-          <div class="your-recipe-options">
-            <button class="">15-200-4</button>
-            <button class="">15-200-7</button>
-            <button class="">17-204-5</button>
-            <button class="">20-360-7</button>
-            <button class="">40-800-6</button>
-            <button class="">17-204-5</button>
-          </div>
-        </div>
         <div class="your-stats">
           <div class="your-stats-title">
             <img
@@ -167,33 +145,6 @@ export default {
           .button {
             border: 1px solid #fcac46;
           }
-        }
-      }
-      .your-recipe {
-        margin-bottom: 24px;
-        display: flex;
-        flex-direction: column;
-        .your-recipe-title {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-bottom: 8px;
-        }
-        .your-recipe-subtitle {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          p {
-            font-size: 10px;
-            font-weight: 200;
-            margin-bottom: 24px;
-          }
-        }
-        .your-recipe-options {
-          display: flex;
-          flex-direction: column;
-          align-items: start;
-          margin-left: 36px;
         }
       }
       .your-stats {
