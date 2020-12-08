@@ -1,13 +1,63 @@
 <template>
   <div class="home">
-    <p>deneme</p>
+    <LeftSideBar />
+    <div class="middle-list">
+      <Container>
+        <div class="search-bar">
+          <input type="search" placeholder="  Search..." />
+        </div>
+        <div class="tags">
+          <a href="">French Press</a>
+          <a href="">V60</a>
+          <a href="">Aero Press</a>
+          <a href="">Delter Press</a>
+          <a href="">Chemex</a>
+          <a href="">Syphon</a>
+        </div>
+        <div class="cards">
+        </div>
+      </Container>
+    </div>
+    <div class="add-and-timer">
+      <p>add and timer</p>
+    </div>
   </div>
 </template>
 
 <script>
-
+import Container from "@/components/Container";
+import LeftSideBar from "@/components/LeftSideBar";
 export default {
   name: "Home",
-  components: {}
+  components: {
+    Container,
+    LeftSideBar
+  }
 };
 </script>
+<style lang="scss" scoped>
+$base-color: #c6538c;
+$border-dark: rgba($base-color, 0.88);
+.home {
+  display: grid;
+  grid-template-columns: 280px 1fr 0.7fr;
+  .middle-list {
+    background-color: #3c3f51;
+    height: auto;
+    .search-bar {
+      display: flex;
+      padding-top: 48px;
+      margin-left: 64px;
+      input {
+        width: 250px;
+        height: 40px;
+        border-radius: 8px;
+      }
+    }
+  }
+  .add-and-timer {
+    background-color: #3c3f51;
+    height: auto;
+  }
+}
+</style>
