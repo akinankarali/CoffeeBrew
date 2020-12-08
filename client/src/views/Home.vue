@@ -6,16 +6,8 @@
         <div class="search-bar">
           <input type="search" placeholder="  Search..." />
         </div>
-        <div class="tags">
-          <a href="">French Press</a>
-          <a href="">V60</a>
-          <a href="">Aero Press</a>
-          <a href="">Delter Press</a>
-          <a href="">Chemex</a>
-          <a href="">Syphon</a>
-        </div>
-        <div class="cards">
-        </div>
+        <Navbar />
+        <div class="cards"></div>
       </Container>
     </div>
     <div class="add-and-timer">
@@ -27,11 +19,13 @@
 <script>
 import Container from "@/components/Container";
 import LeftSideBar from "@/components/LeftSideBar";
+import Navbar from "@/components/Navbar";
 export default {
   name: "Home",
   components: {
     Container,
-    LeftSideBar
+    LeftSideBar,
+    Navbar
   }
 };
 </script>
