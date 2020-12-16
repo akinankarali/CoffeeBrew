@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../constants.dart';
+import 'components/body.dart';
 
 class RecipesScreen extends StatelessWidget {
   const RecipesScreen({Key key}) : super(key: key);
@@ -11,6 +12,7 @@ class RecipesScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: kPrimaryColor,
       appBar: buildAppBar(),
+      body: Body(),
     );
   }
 
