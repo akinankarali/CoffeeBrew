@@ -1,5 +1,6 @@
 import 'package:coffee_brew/constants.dart';
 import 'package:coffee_brew/models/recipe.dart';
+import 'package:coffee_brew/screens/brew/brew_screen.dart';
 import 'package:coffee_brew/screens/details/components/recipe_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -59,7 +60,7 @@ class Body extends StatelessWidget {
                             right: 20,
                           ),
                           decoration: BoxDecoration(
-                            color: kYellowDarkColor,
+                            color: Color(0xffDD7230),
                             borderRadius: BorderRadius.all(
                               Radius.circular(22),
                             ),
@@ -81,7 +82,7 @@ class Body extends StatelessWidget {
                             right: 20,
                           ),
                           decoration: BoxDecoration(
-                            color: kYellowDarkColor,
+                            color: Color(0xffDD7230),
                             borderRadius: BorderRadius.all(
                               Radius.circular(22),
                             ),
@@ -103,7 +104,7 @@ class Body extends StatelessWidget {
                             right: 20,
                           ),
                           decoration: BoxDecoration(
-                            color: kYellowDarkColor,
+                            color: Color(0xffDD7230),
                             borderRadius: BorderRadius.all(
                               Radius.circular(22),
                             ),
@@ -163,7 +164,10 @@ class Body extends StatelessWidget {
                 height: 48,
               ),
               onPressed: () {
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => BrewScreen()),
+                );
               },
             ),
           )
