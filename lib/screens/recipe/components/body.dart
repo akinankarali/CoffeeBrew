@@ -26,7 +26,7 @@ class Body extends StatelessWidget {
               Container(
                 margin: EdgeInsets.only(top: 70),
                 decoration: BoxDecoration(
-                  color: kBackgroundColor,
+                  color: kPrimaryColor,
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(40),
                     topRight: Radius.circular(40),
@@ -41,9 +41,10 @@ class Body extends StatelessWidget {
                   press: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => DetailsScreen(
-                        recipe: recipes[index],
-                      )),
+                      MaterialPageRoute(
+                          builder: (context) => DetailsScreen(
+                                recipe: recipes[index],
+                              )),
                     );
                   },
                 ),

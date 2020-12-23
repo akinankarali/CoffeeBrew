@@ -26,7 +26,6 @@ class RecipePoster extends StatelessWidget {
             height: size.width * 0.9,
             width: size.width * 0.9,
             decoration: BoxDecoration(
-              color: Colors.white70,
               shape: BoxShape.circle,
             ),
           ),
@@ -34,6 +33,7 @@ class RecipePoster extends StatelessWidget {
             image,
             height: size.width * 0.9,
             width: size.width * 0.9,
+            color: Colors.white70,
           )
         ],
       ),

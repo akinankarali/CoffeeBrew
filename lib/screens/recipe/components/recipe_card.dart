@@ -32,21 +32,22 @@ class RecipeCard extends StatelessWidget {
               Container(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(22),
-                    color: Colors.white70,
+                    color: Color(0xffDD7230),
                     boxShadow: [kDefaultShadow]),
               ),
               Positioned(
-                top: -4,
+                top: 8,
                 right: 0,
                 child: Hero(
                   tag: '${recipe.id}',
                   child: Container(
                     padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
-                    height: 100,
-                    width: 140,
+                    height: 80,
+                    width: 120,
                     child: Image.asset(
                       recipe.image,
                       fit: BoxFit.cover,
+                      color: Colors.white70,
                     ),
                   ),
                 ),
@@ -66,7 +67,10 @@ class RecipeCard extends StatelessWidget {
                             vertical: kDefaultPadding / 2),
                         child: Text(
                           recipe.title,
-                          style: Theme.of(context).textTheme.button,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
                         ),
                       ),
                       Container(
@@ -76,25 +80,9 @@ class RecipeCard extends StatelessWidget {
                         padding: EdgeInsets.all(kDefaultPadding / 4),
                         child: Text(
                           recipe.description,
-                          style: Theme.of(context).textTheme.button,
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        padding: EdgeInsets.symmetric(
-                          horizontal: kDefaultPadding * 1.5,
-                          vertical: kDefaultPadding / 4,
-                        ),
-                        decoration: BoxDecoration(
-                          color: kSecondaryColor,
-                          borderRadius: BorderRadius.only(
-                            bottomLeft: Radius.circular(22),
-                            topRight: Radius.circular(22),
+                          style: TextStyle(
+                            color: Colors.white,
                           ),
-                        ),
-                        child: Text(
-                          "Coffee: ${recipe.coffee}gr",
-                          style: Theme.of(context).textTheme.button,
                         ),
                       ),
                     ],
