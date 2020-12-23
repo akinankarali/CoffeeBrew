@@ -21,7 +21,7 @@ List<Recipe> recipes = [
     time: 360000,
     title: "Akin's French Press Recipe",
     description: "This is my french press recipe",
-    image: "assets/images/FrenchPress.png",
+    image: "assets/images/french-press.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -32,7 +32,7 @@ List<Recipe> recipes = [
     time: 120000,
     title: "Aeropress Recipe",
     description: "This is my aeropress recipe",
-    image: "assets/images/Aeropress.png",
+    image: "assets/images/aeropress.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -43,7 +43,7 @@ List<Recipe> recipes = [
     time: 400000,
     title: "Chemex Recipe",
     description: "This is my chemex recipe",
-    image: "assets/images/Chemex.png",
+    image: "assets/images/chemex.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -54,7 +54,7 @@ List<Recipe> recipes = [
     time: 400000,
     title: "Delter Press Recipe",
     description: "This is my delterpress recipe",
-    image: "assets/images/Delterpress.png",
+    image: "assets/images/delterpress.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -65,7 +65,7 @@ List<Recipe> recipes = [
     time: 400000,
     title: "Kalita Wave Recipe",
     description: "This is my kalita recipe",
-    image: "assets/images/KalitaWave.png",
+    image: "assets/images/kalita.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -76,7 +76,7 @@ List<Recipe> recipes = [
     time: 400000,
     title: "V60 Recipe",
     description: "This is my v60 recipe",
-    image: "assets/images/V60.png",
+    image: "assets/images/v60.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -87,7 +87,7 @@ List<Recipe> recipes = [
     time: 400000,
     title: "Syphon Recipe",
     description: "This is my syphon recipe",
-    image: "assets/images/Syphon.png",
+    image: "assets/images/syphon.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -98,7 +98,7 @@ List<Recipe> recipes = [
     time: 400000,
     title: "Moka Pot Recipe",
     description: "This is my moka pot recipe",
-    image: "assets/images/MokaPot.png",
+    image: "assets/images/moka-pot.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
@@ -109,7 +109,7 @@ List<Recipe> recipes = [
     time: 400000,
     title: "Bonmac Dripper Recipe",
     description: "This is my bonmac recipe",
-    image: "assets/images/BonmacDripper.png",
+    image: "assets/images/bonmac.png",
     steps:
         "1.asdlkfasdfahsdf 2.asdkjfahksdfas 3.asdfjkhaksjdfghakjsdf 4.asdkfjhakjsdfhsakjdf",
   ),
