@@ -1,5 +1,6 @@
 import 'package:coffee_brew/screens/brew/components/body.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 import '../../constants.dart';
 
