@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-import '../../../constants.dart';
-
 class Body extends StatefulWidget {
   Body({Key key}) : super(key: key);
 
@@ -45,7 +43,7 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.all(8.0),
+                  padding: EdgeInsets.all(64.0),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
@@ -75,7 +73,7 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
                                       Text(
                                         timerString,
                                         style: TextStyle(
-                                            fontSize: 112.0,
+                                            fontSize: 80.0,
                                             color: Colors.white),
                                       ),
                                     ],
